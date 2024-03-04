@@ -1,4 +1,4 @@
-13  sudo apt-get install git
+   13  sudo apt-get install git
    14  git --version
    15  git
    16  git init
@@ -114,3 +114,49 @@
   153  git commit -m "Se creó el archivo styles con codigo css"
   154  git push origin new_features 
   155  history | grep git
+  156  git add .
+  158  git push origin new_features 
+  159  git checkout main
+  160  git branch
+  161  git log
+  162  git revert
+  163  git log
+  164  git reset --soft HEAD~1
+  165  git log
+  166  git reset --soft HEAD~1
+  167  git log
+  168  git reset --hard HEAD~1
+  169  git log
+  170  git merge new_features 
+  171  git add .
+  172  git reset --soft HEAD~1
+  173  history | grep git
+  174  git add .
+  175  git commit -m "se actualizó about me"
+  176  git push origin main  
+  177  git branch
+  178  git push origin main 
+  179  git pull origin main 
+  180  git reset --hard HEAD~1
+  181  git log
+  182  git branch
+  183  git checkout new_features 
+  184  git log
+  185  git add .
+  186  git commit -m "se corrigio un archivo"
+  187  git push origin new_features 
+  188  git branch 
+  189  git push origin new_features 
+  190  git pull origin new_features 
+  191  git checkout main 
+  192  git merge new_features 
+  193  git push origin main 
+  194  git pull origin main 
+  195  git pull origin main --rebase
+  196  git merge new_features 
+  197  git branch 
+  198  git merge new_features 
+  199  git status
+  200  git log
+  201  git push origin main 
+  202  history | grep git
